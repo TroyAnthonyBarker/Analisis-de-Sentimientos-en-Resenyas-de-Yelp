@@ -10,3 +10,5 @@ transformers
 jupyter
 tf-keras
 TensorFlow
+streamlit
+plotly
