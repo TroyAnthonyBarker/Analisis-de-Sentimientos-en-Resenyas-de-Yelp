@@ -16,7 +16,7 @@ Análisis de reseñas de Yelp mediante técnicas de NLP y visualización para id
 - Contiene 650.000 reseñas con puntuación de 1 a 5 estrellas.
 
 ## Herramientas utilizadas
-- Python 3.x
+- Python 3.12.9
 - Pandas y NumPy
 - Matplotlib y Seaborn / Plotly
 - Scikit-learn
