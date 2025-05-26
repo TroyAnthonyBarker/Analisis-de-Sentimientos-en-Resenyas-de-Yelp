@@ -35,10 +35,14 @@ dataset = load_dataset("Yelp/yelp_review_full")
 train =  pd.DataFrame(dataset['train']).rename(columns={'text': 'review', 'label': 'stars'})
 test = pd.DataFrame(dataset['test']).rename(columns={'text': 'review', 'label': 'stars'})
 
+# Juntar los datasets train y test
+df = pd.concat([train, test])
+
+# Resetear el índice del DataFrame
+# df.reset_index(inplace=True)
+
 # Definir los nombres de los archivos
-train_filename = PATH + 'yelp_reviews_train.csv'
-test_filename = PATH + 'yelp_reviews_test.csv'
+filename = PATH + 'yelp_reviews.csv'
 
 # Guardar el dataset en un archivo CSV
-train.to_csv(train_filename, index=False)
-test.to_csv(test_filename, index=False)
+df.to_csv(filename, index=False)
