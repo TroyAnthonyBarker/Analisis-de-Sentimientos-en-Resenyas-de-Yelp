@@ -26,7 +26,7 @@ Análisis de reseñas de Yelp mediante técnicas de NLP y visualización para id
 
 ## Estructura del proyecto
 ```
-📁 proyecto-yelp
+📁 Analisis-de-Sentimientos-en-Resenyas-de-Yelp
 ├── data/
 │   └── yelp_dataset.csv (opcional si se guarda localmente)
 ├── notebooks/
