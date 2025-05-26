@@ -36,6 +36,7 @@ Análisis de reseñas de Yelp mediante técnicas de NLP y visualización para id
 │   └── limpieza_texto.py
 │   └── visualizaciones.py
 ├── README.md
+├── requirements.txt
 ```
 
 ## Cómo ejecutar
