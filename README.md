@@ -21,7 +21,7 @@ Análisis de reseñas de Yelp mediante técnicas de NLP y visualización para id
 - Matplotlib y Seaborn / Plotly
 - Scikit-learn
 - NLTK o spaCy
-- Transformers (opcional para análisis de sentimiento avanzado)
+- Transformers
 - Jupyter Notebook
 
 ## Estructura del proyecto
